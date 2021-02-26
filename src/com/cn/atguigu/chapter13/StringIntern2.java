@@ -1,4 +1,4 @@
-package com.atguigu.java.chapter13;
+package com.cn.atguigu.chapter13;
 
 /**
  * 使用Intern() 测试执行效率

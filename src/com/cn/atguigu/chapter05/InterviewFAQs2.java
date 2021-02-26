@@ -3,7 +3,7 @@ package com.cn.atguigu.chapter05;
 /**
  * i++和++i的区别
  */
-public class InterviewFAQs1 {
+public class InterviewFAQs2 {
 
     public void add(){
 

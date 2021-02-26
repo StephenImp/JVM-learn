@@ -1,4 +1,6 @@
-package com.atguigu.java.chapter13;
+package com.cn.atguigu.chapter13;
+
+import org.junit.Test;
 
 /**
  * String的不可变性
@@ -8,15 +10,16 @@ package com.atguigu.java.chapter13;
  */
 public class StringTest1 {
 
-    public static void test1() {
+    @Test
+    public  void test1() {
         // 字面量定义的方式，“abc”存储在字符串常量池中
         String s1 = "abc";
         String s2 = "abc";
-        System.out.println(s1 == s2);
+        System.out.println(s1 == s2);//true
         s1 = "hello";
-        System.out.println(s1 == s2);
-        System.out.println(s1);
-        System.out.println(s2);
+        System.out.println(s1 == s2);//false
+        System.out.println(s1);//hello
+        System.out.println(s2);//abc
         System.out.println("----------------");
     }
 
@@ -38,7 +41,7 @@ public class StringTest1 {
     }
 
     public static void main(String[] args) {
-        test1();
+       // test1();
         test2();
         test3();
     }
